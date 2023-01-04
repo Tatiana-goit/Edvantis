@@ -60,6 +60,7 @@ function renderChessBoard(rowLength,numberOfRows) {
 renderChessBoard(8,8);
 
 
+
 // -------------------------------------- VERSION 1: Q = n = 8 -?
 
 // function chessBoard(numberOfChars,numberOfRows) {
