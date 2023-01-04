@@ -72,43 +72,5 @@ renderChessBoard(8,8);
 
 // console.log(chessBoard(7,7));
 
-// -------------------------------------- VERSION 2: Q = n^2 = 8*8=64
-
-// function chessBoard(numberOfChars,numberOfRows) {
-//   for (let i = 0; i < numberOfChars; i++) {
-//     let line= "";
-//     for (let j = 0; j < numberOfRows; j++) {
-//       if ((i + j) % 2 === 0) {
-//         line += "_";
-//       } else {
-//         line += "#";
-//       }
-//     }
-//     console.log(line);  
-//   }
-// }
-
-// chessBoard(8,8);
-
-
-
-// -------------------------------------- VERSION 3: Q = n^2 = 8*8=64
-
-// function chessBoard(numberOfChars,numberOfRows) {
-//   const BLACK = "#";
-//   const WHITE = "_";
-//   let result = "";
-  
-//   for (let i = 0; i < numberOfChars; i++) {
-//     let line = "";
-//     for (let j = 0; j < numberOfRows; j++) {
-//       line += (i + j) % 2 === 0 ? WHITE : BLACK;
-//     }
-//     result += line + "\n"
-//   }
-//   console.log(result)
-// }
-
-// chessBoard(8,8);
 
 
